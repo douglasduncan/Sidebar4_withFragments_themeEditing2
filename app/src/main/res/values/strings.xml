@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Anaesthesia Feedback</string>
+    <string name="navigation_header_title">Anaesthesia Feedback</string>
+    <string name="camera">camera</string>
+    <string name="location">location</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TextView1">this is fragment container</string>
+    <string name="af_logo">af_logo</string>
+    <string name="logo_placement">Logo_Placement</string>
+    <string name="TextViewOnLogin">Log in here</string>
+    <string name="initial_check_text">initial check</string>
+    <string name="logout">logout</string>
+    .
+</resources>
