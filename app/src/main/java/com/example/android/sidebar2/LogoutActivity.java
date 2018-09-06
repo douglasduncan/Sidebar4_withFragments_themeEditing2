@@ -19,5 +19,7 @@ public class LogoutActivity extends AppCompatActivity {
         clear_preferences.apply();
         Log.w("logout", "cleared preferences");
         startActivity(logout_intent);//////open the initial check activity class
+
+        //
     }
 }
