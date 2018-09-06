@@ -12,6 +12,6 @@
     <string name="logo_placement">Logo_Placement</string>
     <string name="TextViewOnLogin">Log in here</string>
     <string name="initial_check_text">initial check</string>
-    <string name="logout">logout</string>
+    <string name="logout">this is logout</string>
     .
 </resources>
