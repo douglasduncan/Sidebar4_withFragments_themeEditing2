@@ -20,6 +20,6 @@ public class LogoutActivity extends AppCompatActivity {
         Log.w("logout", "cleared preferences");
         startActivity(logout_intent);//////open the initial check activity class
 
-        //
+        ////
     }
 }
