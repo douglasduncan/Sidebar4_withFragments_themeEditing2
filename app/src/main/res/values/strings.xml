@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Anaesthesia Feedback</string>
     <string name="navigation_header_title">Anaesthesia Feedback</string>
-    <string name="camera">camera</string>
-    <string name="location">location</string>
+    <string name="secure_email">Secure Email Feedback</string>
+    <string name="location">Send Cards</string>
+    <string name="settings">Settings</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

@@ -13,8 +13,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
@@ -42,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                         if (id == R.id.nav_camera) {
                             Log.w("clicked", "the camera was clicked");
                             ////////////////////////////////////////////////////////OPEN the CAMERA Fragment
-                            Fragment myfragment = new CameraFragment();
+                            Fragment myfragment = new EmailFeedbackFragment();
                             FragmentTransaction myTransaction = getSupportFragmentManager().beginTransaction();
 
                             myTransaction.replace(R.id.FragmentContainer, myfragment);////put my fragment into the fragment container
