@@ -18,6 +18,7 @@ public class LogoutActivity extends AppCompatActivity {
         clear_preferences.clear();
         clear_preferences.apply();
         Log.w("logout", "cleared preferences");
+        logout_intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);//takes away the back button
         startActivity(logout_intent);//////open the initial check activity class
 
         ////

@@ -25,6 +25,7 @@ public class InitialCheck extends AppCompatActivity {
             //username and password are not present
             Log.w("checking","no username or password, going to login activity");
             Intent intent = new Intent(this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);//takes away the back button
             startActivity(intent);
         }
         else
@@ -34,6 +35,7 @@ public class InitialCheck extends AppCompatActivity {
 Log.w("checking", username);
 Log.w("checking", password);
             Intent intent = new Intent(this, MainActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);//takes away the back button
             startActivity(intent);
         }
 
